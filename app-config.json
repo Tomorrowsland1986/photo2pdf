@@ -1,24 +1,16 @@
 {
   "version": 1,
   "enabled": true,
-
   "ip_lookup": {
     "provider": "ip2location",
     "endpoint": "https://api.ip2location.io/?key=A50A41E2C526764C3B05843B7873BB64"
   },
-
   "allowed": {
-    "countries": ["ES"],
-    "url": "https://www.google.com"
+    "countries": ["IT", "CH", "ES", "BG"],
+    "message": "This app is currently available only in selected regions."
   },
-
-  "restricted": {
-    "mode": "PUZZLE",
-    "puzzle": {
-      "levels": 10,
-      "grid": { "rows": 7, "cols": 7 },
-      "secondsPerLevel": 30
-    },
-    "fallbackUrl": "https://www.google.com"
+  "maintenance": {
+    "title": "App temporarily unavailable",
+    "message": "Please try again later."
   }
 }
