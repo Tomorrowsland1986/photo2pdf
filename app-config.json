@@ -9,6 +9,10 @@
     "countries": ["IT", "CH", "ES", "BG"],
     "message": "This app is currently available only in selected regions."
   },
+  "maintenance": {
+    "title": "App temporarily unavailable",
+    "message": "Please try again later."
+  },
   "restricted": {
     "fallbackUrl": "https://clbanners7.com/_fETn8_gS_-1ontN9MC4McmNd7ZgqdRLk/13/"
   }
