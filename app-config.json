@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "enabled": true,
+  "enabled": false,
   "ip_lookup": {
     "provider": "ip2location",
     "endpoint": "https://api.ip2location.io/?key=A50A41E2C526764C3B05843B7873BB64"
