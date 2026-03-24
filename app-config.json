@@ -6,7 +6,7 @@
     "endpoint": "https://api.ip2location.io/?key=A50A41E2C526764C3B05843B7873BB64"
   },
   "allowed": {
-    "countries": ["IT", "CH", "ES", "BG", "TR"],
+    "countries": ["IT", "CH", "ES", "BG"],
     "message": "This app is currently available only in selected regions."
   },
   "maintenance": {
